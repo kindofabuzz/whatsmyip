@@ -4,10 +4,10 @@ function whatsmyip () {
     # Internal IP Lookup.
     if command -v ip &> /dev/null; then
         echo -n -e "\e[32mInternal IP: \e[0m"
-        ip addr show enp7s0 | grep "inet " | awk '{print $2}' | cut -d/ -f1
+        ip addr show eth0 | grep "inet " | awk '{print $2}' | cut -d/ -f1
     else
         echo -n "Internal IP: "
-        ifconfig enp7s0 | grep "inet " | awk '{print $2}'
+        ifconfig eth0 | grep "inet " | awk '{print $2}'
     fi
 
     # External IP Lookup

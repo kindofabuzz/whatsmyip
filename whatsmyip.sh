@@ -1,6 +1,6 @@
 #!/bin/bash
 
-alias whatismyip="whatsmyip"
+alias whatismyip="whatsmyip" # used when in .bashrc
 function whatsmyip () {
     echo -e "\n\e[33m@@@@@@@@@@@@@@@@@@@@@@@@@@@@\e[0m"
     # Internal IP Lookup.
@@ -19,4 +19,4 @@ function whatsmyip () {
 
 }
 
-whatsmyip
+whatsmyip # remove if in .basrc

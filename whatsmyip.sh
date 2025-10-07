@@ -1,3 +1,5 @@
+#!/bin/bash
+
 alias whatismyip="whatsmyip"
 function whatsmyip () {
     echo -e "\n\e[33m@@@@@@@@@@@@@@@@@@@@@@@@@@@@\e[0m"

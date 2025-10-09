@@ -16,6 +16,7 @@ function whatsmyip () {
     echo -n -e "\e[32mExternal IP: \e[0m"
     curl -4 ifconfig.me
     echo -e "\n\e[33m@@@@@@@@@@@@@@@@@@@@@@@@@@@@\e[0m"
+    echo -e "THIS IS A BRANCH TEST"
 
 }
 

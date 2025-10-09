@@ -19,4 +19,4 @@ function whatsmyip () {
 
 }
 
-whatsmyip # remove if in .basrc
+whatsmyip # REMOVE IF USING IN .BASHRC
